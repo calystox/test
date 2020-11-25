@@ -7,6 +7,32 @@
   </head>
   <body>
     <style>
+	    div{
+    border: 3px solid #3CC;
+    margin: 10px 10px;
+    height: 100px;
+    background-color: #444;
+    color: #fff;
+}
+
+.lh{
+    line-height: 100px;
+}
+
+.tb{
+    display: table;
+}
+.tb span{
+    display: table-cell;
+    vertical-align: middle;
+}
+	    <div class="lh">
+                <span>Span centré avec line-height</span>
+        </div>
+
+        <div class="tb">
+                <span>Span centré <br>sur deux lignes</span>
+        </div>
 div.a {
 	text-align: center;
 }
@@ -16,8 +42,7 @@ div.a {
 <p>Le but de ce site</p>
 </div>
 <div class="a">
-<h2>Me soutenir</h2>
-<p>Merci</p>
+
 </div>
     <h1>Guten tag :)</h1>
     <marquee behavior="alternate">Un texte défile d'avant en arrière</marquee>
